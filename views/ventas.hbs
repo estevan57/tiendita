@@ -1,0 +1,27 @@
+{{> header}}
+<div class="card" style="width: 19rem; margin-top: 5%; margin-left: 40%;">
+
+
+    <div class="card-body">
+        <form>
+            <div class="mb-4">
+                <label class="form-label">Nombre del producto</label>
+                <input type="text" class="form-control" id="nombre_producto">
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">Cantidad</label>
+                <input type="number" class="form-control" id="Cantidad">
+            </div>
+            <div class="mb-4">
+                <label class="form-label ">Total</label>
+                <input type="number" class="form-control" id="Total" placeholder="Este campo está deshabilitado..."readonly>
+            </div>
+            <button class="btn btn-primary" type="button" id="botton_ventas">Enviar formulario</button>
+        </form>
+        <script src="/assets/js/validacion_ventas.js"></script>
+
+
+    </div>
+</div>
+{{> footer}}

@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(0, 128, 58);
+  }
+#div1{
+    border-radius: 2em;
+    border-color: rgb(0, 0, 0);
+    border: 2em;
+    background-color: aliceblue;
+}

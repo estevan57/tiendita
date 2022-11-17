@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Public/assets/css/login.css">
+<title>Inicio Sesión</title>
+</head>
+<body>
+    <div id="card1" class="card"  style="width: 19rem; margin-top: 5%; margin-left: 40%;">
+        <img id="img1" src="IMG/images.jpg" class="card-img-top">
+        <div class="card-body">
+            <form>
+                <div class="mb-3">
+                  <label id="texto" for="exampleInputEmail1" class="form-label">Ingresa tu usuario</label>
+                  <input type="text" class="form-control" id="usuario" >
+                  
+                </div>
+                <div class="mb-3">
+                  <label id="texto" for="exampleInputPassword1" class="form-label">Ingresa tu Contraseña</label>
+                  <input type="password" class="form-control" id="contraseña">
+                  <!-- <div id="emailHelp" class="form-text">Que no sea el nombre de tu perro por favor.</div> -->
+                </div>
+               <div id="boton"> <button type="button" class="btn btn-primary" id="calculo" onclick="login()">Enviar</button></div>
+              </form>
+              <script src="../Public/assets/js/usuarios.js"></script>
+
+              
+        </div>
+      </div>
+    
+</body>

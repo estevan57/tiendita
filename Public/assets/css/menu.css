@@ -1,0 +1,23 @@
+body {
+    background-color: #88c8dd;
+}
+
+.ima{
+    float: left;
+   
+}
+
+.menu {
+    width: 60%;
+    height: 40px;
+    background: #fff;
+    margin: 10px 20px;
+    float: left;
+    
+}
+
+.busqueda{
+    margin-left: 20px;
+    
+    margin-left: 20px;
+}
